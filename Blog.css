@@ -1,0 +1,108 @@
+*{
+margin:0;
+padding:0;
+}
+ @font-face
+{
+	font-family: yn;
+	src:url(fonts/yn.TTF);
+}
+ @font-face
+{
+	font-family: jl;
+	src:url(fonts/jl.TTF);
+}
+ @font-face
+{
+	font-family: cap;
+	src:url(fonts/cap.ttf);
+}
+#title
+{
+	font-family: yn;
+	position: absolute;
+	top: calc(30px + 6vh);
+	width: 100%;
+}
+#IWantSay
+{
+	font-family: jl;
+	top: calc(120px + 14vh);
+	line-height: calc(15px + 3vh);
+	position: absolute;
+	width: 56%;
+	left: 22%;
+	padding: 0px;
+}
+#bg
+{
+	width: 100%;
+	height: 100%;
+	background-image: url("pic/bg13.jpg");
+    top:0;
+    left: 0;
+    z-index: -1;
+    position: fixed;
+    background-position: 47% 50%;
+    filter:(0px);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+}
+body
+{
+	 height:"100%"
+}
+#thetitle
+{
+	text-align:center;
+    font-size:calc(90px - 2.5vw);
+    color:#81ecec;
+}
+.WhatIWantSay{
+	font-size:calc(50px - 2vw);
+    color:white;
+}
+/*#Background
+{
+	/*height: 1000px;
+	width: 100%;
+	height: 100%;
+	background-image: url(pic/bg1.JPG);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+*/
+.atag
+{
+    textDecoration:none;
+}
+.myimg
+{
+    position:absolute;
+    left:30px;
+    width:100px;
+    height:100px;
+    clip-path:polygon(0 0, 100% 0, 50% 100%);
+}
+.pc
+{
+    font-size:calc(40px - 1vw);
+    font-family:jl;
+    position:absolute;
+    top:120px;
+    left:40px;
+    writing-mode: vertical-lr;
+    color:white;
+}
+.pe
+{
+    font-size:calc(40px - 1vw);
+    font-family:cap;
+    position:absolute;
+    top:120px;
+    right:40px;
+    writing-mode: vertical-lr;
+    color:white
+}
