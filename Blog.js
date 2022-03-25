@@ -46,8 +46,8 @@ else
 }
 creEntrance("fuckinpic/fun.png","胜地不常","get lost","http://shrike.site:626/Scenery",1,"8%","45%");
 creEntrance("fuckinpic/mad.png","胡言乱语","250 words","http://shrike.site:626/Essay",1,"30%","45%");
-creEntrance("fuckinpic/shit.png","一些作品","some shits","http://shrike.site:626/Project",0,"8%","45%");
-creEntrance("fuckinpic/noise.jpg","快憋弹了","stop making noise","http://shrike.site:626/Noise",0,"30%","45%");
+creEntrance("fuckinpic/shit.png","一些作品","some shits","http://shrike.site:626/Project",0,"30%","45%");
+creEntrance("fuckinpic/noise.jpg","快憋弹了","stop making noise","http://shrike.site:626/Noise",0,"8%","45%");
 
 function creEntrance(imgsrc,pc,pe,link,isLeft,howmuch,top){
     var theDiv=document.createElement("div");
